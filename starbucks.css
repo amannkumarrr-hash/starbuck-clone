@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.upper{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper img{
+    margin: 18px 30px;
+    width: 35px;
+    height: 35px;
+}
+.upper ul{
+    margin-top: 26px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: 800;
+    font-size: 10px;
+}
+.upper ul li a:hover{
+    color: #00754a;
+}
+.upper ul li a{
+    text-decoration: none;
+    color: black;
+}
+.map{
+    margin-left: 240px;
+    margin-top: 26px;
+}
+.map a:hover{
+    color: #00754a;
+}
+.map a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 10px;
+}
+.map a span i{
+    margin-right: 5px;
+    font-size: 18px;
+}
+.button{
+    display: flex;
+}
+.btn1 button{
+    margin-top: 26px;
+    margin-left: 25px;
+    height: 22px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+.btn2 button{
+    margin-top: 26px;
+    margin-left: 10px;
+    height: 22px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    background: #000;
+    color: white;
+}
+.grn{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #32462F;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 38px;
+    gap: 5px;
+    transition: background-color 0.5s ease;
+}
+.grn:hover{
+    background-color: #202e1e;
+}
+.grn svg{
+    font-size: 16px;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-left: 140px;
+}
+.grn .banner{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+}
+.arrow{
+    color: white;
+}
+.empty{
+    width: 100%;
+    height: 23px;
+}
+.con1{
+    display: flex;
+}
+.img1{
+    width: 50%;
+}
+.con1 .img1 img{
+    width: 410px;
+  
+}
+.con1 .text1{
+    height: 239px;
+    width: 60%;
+    background-color: #F8F0E5;
+    text-align: center;
+    padding-top: 50px;
+}
+.text1 .hd{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f4633;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.text1 .para{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f4633;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.view_button a{
+    text-decoration: none;
+    color: white;
+}
+.view_button button{
+    background-color: #00754a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 23px;
+    margin-top: 20px;
+}
+.empty1{
+    width: 100%;
+    height: 23px;
+}
+.con2{
+    display: flex;
+}
+.con2 .text2{
+    height: 239px;
+    width: 50%;
+    background-color: #F8F0E5;
+    text-align: center;
+    padding-top: 50px;
+}
+.text2 .fr{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #006242;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.text2 .pr{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #006242;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.join_button a{
+    text-decoration: none;
+    color: #006242;
+}
+.join_button button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    border: 1px solid #006242;
+    border-radius: 50px;
+    width: 100px;
+    height: 23px;
+    margin-top: 20px;
+}
+.con2 .img2 img{
+    width: 102%;
+    height: 239px;
+}
+.empty3{
+    width: 100%;
+    height: 23px;
+}
+.con3{
+    display: flex;
+}
+.img3{
+    width: 50%;
+}
+.con3 .img3 img{
+    width: 410px;
+    height: 239px;
+}
+.con3 .text3{
+    height: 239px;
+    width: 60%;
+    background-color: #32462F;
+    text-align: center;
+    padding-top: 50px;
+}
+.text3 .sc{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.text3 .tx{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.send_button a{
+    text-decoration: none;
+    color: white;
+}
+.send_button button{
+    background-color: #32462F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 23px;
+    margin-top: 20px;
+}
+.empty4{
+    width: 100%;
+    height: 23px;
+}
+.con4{
+    display: flex;
+}
+.con4 .text4{
+    height: 239px;
+    width: 50%;
+    background-color: #61381c;
+    text-align: center;
+    padding-top: 50px;
+}
+.text4 .th{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.text4 .pa{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.learn_button a{
+    text-decoration: none;
+    color: white;
+}
+.learn_button button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 23px;
+    margin-top: 20px;
+    background-color: #61381c;
+}
+.con4 .img4 img{
+    width: 102%;
+    height: 239px;
+}
+.empty5{
+    width: 100%;
+    height: 23px;
+}.con5{
+    display: flex;
+}
+.img5{
+    width: 50%;
+}
+.con5 .img5 img{
+    width: 410px;
+    height: 90vh;
+}
+.con5 .text5{
+    height: 90vh;
+    width: 60%;
+    background-color: #32462F;
+    text-align: center;
+    padding-top: 25px;
+}
+.text5 .fo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    
+}
+.text5 .big{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 7px;
+    line-height: 25px;
+}
+.order_button a{
+    text-decoration: none;
+    color: white;
+}
+.order_button button{
+    background-color: #32462F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 23px;
+    margin-top: 20px;
+}
+.end{
+    text-align: center;
+    margin: 40px 195px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 545;
+    line-height: 18px;
+    
+}
+.end_sc{
+    margin-top: 60px;
+}
+.line{
+    width: 100%;
+    border-bottom: 2px solid #34333333;
+    margin-bottom: 30px;
+}
+.footer_1{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+.footer_1 span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 12px 12px 20px 12px;
+}
+.footer_1 .anchors{
+    margin: 20px 12px 20px 15px;
+}
+.anchors a:hover{
+    color: #000;
+}
+.footer_1 .anchors a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #838181;
+    font-weight: 600;
+}
+.footer_1 .about{
+    width: 17vw;
+}
+.footer_1 .careers{
+    width: 17vw;
+}
+.footer_1 .social_impact{
+    width: 20vw;
+}
+.footer_1 .for_business_partners{
+    width: 23vw;
+}
+.footer_1 .order_and_pick_up{
+    width: 25vw;
+}
+.line_2{
+    width: 95%;
+    border-bottom: 2px solid #34333333;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.footer_2 .icon_footer{
+    margin-left: 25px;
+}
+.footer_2 .icon_footer a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+.footer_3 .secondary{
+    margin-left: 27px;
+    margin-top: 20px;
+    list-style: none;
+}
+.footer_3 .secondary a{
+    text-align: left;
+    display: list-item;
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+.secondary a:hover{
+    text-decoration: underline;
+}
+.footer_3 .last p{
+    margin-left: 27px;
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00000094;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+@media only screen and(max-width = 455px){
+    .con1{
+        flex-direction: column;
+    }
+}
+
+
+
